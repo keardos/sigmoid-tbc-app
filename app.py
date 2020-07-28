@@ -23,12 +23,12 @@ app.config['suppress_callback_exceptions']=True
 n_points = 100 # number of data points to be plotted for each graph
 
 min_supply = 10000
-max_supply = 1000000
+max_supply = 30000000
 supply_step = 1000
 
-min_price = 0
-max_price = 1000
-price_step = 10
+min_price = 0.05
+max_price = 7
+price_step = 0.5
 
 min_slope = 0.1e9
 max_slope = 100e9
