@@ -30,13 +30,13 @@ min_price = 0.05
 max_price = 7
 price_step = 0.5
 
-min_slope = 0.1e9
-max_slope = 100e9
-slope_step = 0.1e9
+min_slope = 0.1
+max_slope = 100
+slope_step = 0.1
 
 k_min = 0
-k_max = 500
-k_step = 10
+k_max = 0.50
+k_step = 0.05
 
 t_min = 0
 t_max = 1.0
