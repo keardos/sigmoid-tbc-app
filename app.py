@@ -13,7 +13,7 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
 # set page title
-app.title = 'Sigmoid TBC Taxation'
+app.title = 'Sigmoid DIA чарт'
 
 server = app.server
 
@@ -31,7 +31,7 @@ max_price = 7
 price_step = 0.5
 
 min_slope = 0.1e9
-max_slope = 5000e9
+max_slope = 7000e9
 slope_step = 0.1e9
 
 k_min = 0
@@ -53,10 +53,10 @@ def format_number(n):
 # app layout
 app.layout = html.Div([
 	html.Div(
-		[html.H2('Taxation of Sigmoidal Token Bonding Curves')]),
+		[html.H2('Кривая Бондов для DIA подготовлено с помощью:')]),
 		html.Div(
 			[html.P(
-				['This interactive dashboard refers to the different fundraising scenarios outlined in our ',
+				['Taxation of Sigmoidal Token Bonding Curves<b> This interactive dashboard refers to the different fundraising scenarios outlined in our ',
 				 html.A('Medium Post', href='https://medium.com/molecule-blog/designing-different-fundraising-scenarios-with-sigmoidal-token-bonding-curves-ceafc734ed97'),
 				 ' about Sigmoidal Token Bonding Curves. Please refer to the article for more details about the mathematical functions used for plotting.',
 				]),
