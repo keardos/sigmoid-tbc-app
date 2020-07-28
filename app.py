@@ -26,12 +26,12 @@ min_supply = 10000
 max_supply = 30000000
 supply_step = 1000
 
-min_price = 0.05
+min_price =  0.05
 max_price = 7
 price_step = 0.5
 
 min_slope = 0.1e9
-max_slope = 3000e9
+max_slope = 5000e9
 slope_step = 0.1e9
 
 k_min = 0
